@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Helping Hand</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- FontAwesome Link -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <!-- CSS Link -->
+  <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg" style="background-color: skyblue;">
+    <div class="container-fluid">
+    
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="./pictures/logo.jpeg" alt="Helping Hand Logo" class="logo">
+      </a>
+
+      
+      <form  style="width: 40%;">
+        <div class="input-group">
+          <span class="input-group-text bg-white">
+            <i class="fas fa-search"></i>
+          </span>
+          <input class="form-control" type="text" placeholder="Search device" aria-label="Search">
+        </div>
+      </form>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto d-flex align-items-center">
+          <li class="nav-item ">
+            <a class="nav-link text-black" href="./index.html">
+              <i class="fas fa-home text-white "></i>
+              <span>Home</span>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link text-black" href="#">
+              <i class="fas fa-inbox text-white "></i>
+              <span>Inbox</span>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link text-black" href="./service order/serviceorder.html">
+              <i class="fas fa-box text-white "></i>
+              <span>Orders</span>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link text-black" href="#">
+              <i class="fas fa-question-circle text-white"></i>
+              <span>Help</span>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link text-black" href="#">
+              <i class="fas fa-ellipsis-h text-white "></i>
+              <span>More</span>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link text-black" href="./sign-in/signin.html">
+              <i class="fas fa-sign-in-alt text-white"></i>
+              <span>Login</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="body-section">
+    <div class="overlay d-flex flex-column align-items-center justify-content-center ">
+      <h1 class="body-text">Your Personal Assistant</h1>
+      <p class="sub-text">One-stop solution for your services. Order any service, anytime.</p>
+      
+      <div class="location-bar d-flex align-items-center">
+        <i class="fas fa-map-marker-alt location-icon"></i>
+        <select class="form-select" aria-label="Location Dropdown">
+          <option selected>Choose your location</option>
+          <option value="1">Ashulia</option>
+          <option value="2">Charabagh</option>
+          <option value="3">Savar</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid py-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+      <h2 class="category-heading">Category</h2>
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          More Categories
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Category 1</a></li>
+          <li><a class="dropdown-item" href="#">Category 2</a></li>
+          <li><a class="dropdown-item" href="#">Category 3</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="row">
+      
+      <div class="col ">
+        <div class="card text-center">
+          <div class="card-body">
+            <a href="./AC Servicing/ac.html">
+              <i class="fas fa-fan fa-3x mb-3"></i> 
+              <h5 class="card-title">AC Repair Services</h5></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card text-center">
+          <div class="card-body">
+            <i class="fas fa-plug fa-3x mb-3"></i> 
+            <h5 class="card-title">Appliance Repair</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-4">
+        <div class="card text-center">
+          <div class="card-body">
+            <i class="fas fa-key fa-3x mb-3"></i> 
+            <h5 class="card-title">Door Key Services</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-4">
+        <div class="card text-center">
+          <div class="card-body">
+           <a href="./Home Cleaning/homeclean.html">
+            <i class="fas fa-broom fa-3x mb-3"></i> 
+            <h5 class="card-title">Home Cleaning</h5>
+           </a>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      
+      <div class="col mb-4">
+        <div class="card text-center">
+          <div class="card-body">
+            <a href="./wall painting/painting.html">
+              <i class="fas fa-paint-brush fa-3x mb-3"></i> 
+            <h5 class="card-title">Wall Painting</h5>
+            </a>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-4">
+        <div class="card text-center">
+          <div class="card-body">
+            <i class="fas fa-bolt fa-3x mb-3"></i> 
+            <h5 class="card-title">Electrical Services</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-4">
+        <div class="card text-center">
+          <div class="card-body">
+            <a href="./Gas Stove/gas.html">
+              <i class="fas fa-cogs fa-3x mb-3"></i> 
+            <h5 class="card-title">Gas Stove Services</h5>
+            </a>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-4">
+        <div class="card text-center">
+          <div class="card-body">
+            <i class="fas fa-shower fa-3x mb-3"></i> 
+            <h5 class="card-title">Sanitary Services</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div class="container-fluid py-5">
+  <div class="d-flex justify-content-between align-items-center mb-4">
+    <h2 class="recommended-heading">Recommended</h2>
+    <button class="btn btn-secondary">See All</button>
+  </div>
+
+  <div class="row">
+  
+    <div class="col">
+      <div class="card text-center">
+        <a href="./AC Servicing/ac.html">
+         <img src="./pictures/ac repair.jpeg" alt="" class="card-img-top">
+          <h5 class="card-title">AC Repair Services</h5></a>
+      </div>
+    </div>
+
+    <div class="col mb-4">
+      <div class="card text-center">
+        <a href="./wall painting/painting.html">
+          <img src="./pictures/painting.png" class="card-img-top" alt="AC Servicing">
+           <h5 class="card-title">Painting Service</h5>
+          </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    
+    <div class="col mb-4">
+      <div class="card text-center">
+        <a href="./Home Cleaning/homeclean.html">
+          <img src="./pictures/home cleaning.png" class="card-img-top" alt="AC Servicing">
+           <h5 class="card-title">Home Cleaning</h5>
+          </a>
+      </div>
+    </div>
+
+    <div class="col mb-4">
+      <div class="card text-center">
+        <a href="">
+          <img src="./pictures/door key.jpeg" class="card-img-top" alt="AC Servicing">
+           <h5 class="card-title">Door Key Unlocking</h5>
+          </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid py-5">
+  <div class="d-flex justify-content-between align-items-center mb-4">
+    <h2 class="recommended-heading">For Your Home</h2>
+    <button class="btn btn-secondary">See All</button>
+  </div>
+
+  
+  <div class="row">
+    <div class="col mb-4">
+      <div class="card text-center">
+        <a href="./AC Servicing/ac.html">
+          <img src="./pictures/ac repair.jpeg" alt="" class="card-img-top">
+          <h5 class="card-title">AC Repair Services</h5></a>
+      </div>
+    </div>
+
+    <div class="col mb-4">
+      <div class="card text-center">
+        <a href="./wall painting/painting.html">
+          <img src="./pictures/painting.png" class="card-img-top" alt="AC Servicing">
+          <h5 class="card-title">Painting Service</h5>
+          </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col mb-4">
+      <div class="card text-center">
+        <a href="./Home Cleaning/homeclean.html">
+          <img src="./pictures/home cleaning.png" class="card-img-top" alt="AC Servicing">
+          <h5 class="card-title">Home Cleaning</h5>
+          </a>
+      </div>
+    </div>
+
+    <div class="col mb-4">
+      <div class="card text-center">
+        <a href="">
+          <img src="./pictures/door key.jpeg" class="card-img-top" alt="AC Servicing">
+          <h5 class="card-title">Door Key Unlocking</h5>
+          </a>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="row">
+    <div class="col mb-4">
+      <div class="card text-center">
+        <a href="">
+          <img src="./pictures/electric.jpeg" class="card-img-top" alt="AC Servicing">
+           <h5 class="card-title">Electrical Service</h5>
+          </a>
+      </div>
+    </div>
+
+    <div class="col mb-4">
+      <div class="card text-center">
+        <a href="./Gas Stove/gas.html">
+          <img src="./pictures/gas stove.png" class="card-img-top" alt="AC Servicing">
+           <h5 class="card-title">Gas Stove/Burner Service</h5>
+          </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col mb-4">
+      <div class="card text-center">
+        <a href="">
+          <img src="./pictures/sanitary.png" class="card-img-top" alt="AC Servicing">
+           <h5 class="card-title">Plumbing & Sanitary service</h5>
+          </a>
+      </div>
+    </div>
+
+    <div class="col mb-4">
+      <div class="card text-center">
+        <a href="">
+          <img src="./pictures/appliance.jpeg" class="card-img-top" alt="AC Servicing">
+           <h5 class="card-title">Floor Tiles Servicing</h5>
+          </a>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<footer class="pt-4">
+  <div class="container">
+    
+    <div class="row">
+      
+      <div class="col mb-3">
+        <h5>Contact Information</h5>
+        <p><i class="fas fa-map-marker-alt"></i> 123 Helping Hand Street, City</p>
+        <p><i class="fas fa-phone"></i> +123 456 7890</p>
+        <p><i class="fas fa-envelope"></i> info@helpinghand.com</p>
+      </div>
+
+      
+      <div class="col mb-3">
+        <h5>Pages & Policies</h5>
+        <ul class="list-unstyled">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+
+      
+      <div class="col mb-3">
+        <h5>Company</h5>
+        <ul class="list-unstyled">
+          <li><a href="#">sManager</a></li>
+          <li><a href="#">sBusiness</a></li>
+          <li><a href="#">sDelivery</a></li>
+          <li><a href="#">sBondhu</a></li>
+        </ul>
+      </div>
+
+      
+      <div class="col mb-3">
+        <h5>Download Our App</h5>
+        <div class="app-icons">
+          <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play"></a>
+          <a href="#"><img src="./pictures/apple.png" alt="App Store">App Store</a>
+          
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="row footer-image my-4">
+      <img src="./pictures/payment banner.jpeg" alt="Footer Banner">
+    </div>
+
+    
+    <div class="row">
+      <div class="col text-center py-3">
+        <p class="m-0">&copy; 2024 Helping Hand Platform Limited. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
